@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+    android:background="@drawable/menu_drawable">
+
+    <TextView
+        android:id="@+id/menu_add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="thêm"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/menu_update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/item_title_drawable"
+        android:text="Sua"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/menu_delete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Xoa"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+</LinearLayout>
