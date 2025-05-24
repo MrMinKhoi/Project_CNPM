@@ -1,14 +1,17 @@
-package com.example.todoapp;
+package com.example.todoapp.ui.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.PopupMenu;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.todoapp.R;
+import com.example.todoapp.model.Todo;
+import com.example.todoapp.ui.OnTodoItemLongClickListener;
 
 import java.util.List;
 
